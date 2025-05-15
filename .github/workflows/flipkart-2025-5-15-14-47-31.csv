@@ -1,0 +1,6 @@
+,OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 14:47:31  GMT+5:30
+
+"#","Step","Data","Exp Result","XPath","cssSelector"
+"1","Open website","https://www.flipkart.com/","","",""
+"2","Click on ""Kilos""","","","//img[@alt='Kilos']","img[alt='Kilos']"
+"3","Click on ""✕""","","","//button[contains(text(),'✕')]","button"
