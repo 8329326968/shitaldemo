@@ -1,0 +1,179 @@
+{
+  "id": "e2e9d34c-f5b9-4f96-a688-c24234b54298",
+  "version": "2.0",
+  "name": "Demo",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "aa20e8cc-3735-490d-9f6d-831a772279b3",
+    "name": "Test Login",
+    "commands": [{
+      "id": "f7e98536-02d6-46bc-88a1-74a890d13334",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15ddddc6-e869-433e-8a8b-c9994e3ff9a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x786",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62c04c85-ab35-47bb-b5c2-a17827556cad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fc4bdd6-3caa-4aca-914a-1d424b5ab1b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1ch8e_:nth-child(2) .\\_2puWtW",
+      "targets": [
+        ["css=.\\_1ch8e_:nth-child(2) .\\_2puWtW", "css:finder"],
+        ["xpath=//img[@alt='Mobiles']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[2]/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd4ce544-d6b1-471a-a186-8768e0c96c26",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.wsejfv", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?ret=/mobile-phones-store%3Ffm%3Dneo%252Fmerchandising%26iid%3DM_53d79b97-0872-47c1-b380-ec4d8e1ff7ff_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J%26otracker%3Dhp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J%26otracker1%3Dhp_rich_navigation_PINNED_neo%252Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all%26cid%3DZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6929bb-50fd-48f0-ab98-8f6dd03eff44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.wsejfv", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?ret=/mobile-phones-store%3Ffm%3Dneo%252Fmerchandising%26iid%3DM_53d79b97-0872-47c1-b380-ec4d8e1ff7ff_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J%26otracker%3Dhp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J%26otracker1%3Dhp_rich_navigation_PINNED_neo%252Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all%26cid%3DZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "879dbbf9-13de-4b47-adda-9f42f6c2cfb4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.wsejfv", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?ret=/mobile-phones-store%3Ffm%3Dneo%252Fmerchandising%26iid%3DM_53d79b97-0872-47c1-b380-ec4d8e1ff7ff_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J%26otracker%3Dhp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J%26otracker1%3Dhp_rich_navigation_PINNED_neo%252Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all%26cid%3DZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a87320a2-c606-4931-bec6-56ef3dbaed15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NEEcDr",
+      "targets": [
+        ["css=.NEEcDr", "css:finder"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'✕')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a8eb931-3cc6-4147-82d3-13838829f275",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Offer Zone",
+      "targets": [
+        ["linkText=Offer Zone", "linkText"],
+        ["css=.TSD49J:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Offer Zone')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&otracker=nmenu_offer-zone')]", "xpath:href"],
+        ["xpath=//body/div/div/div[2]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Offer Zone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efc3ab89-4788-43b9-a500-c8c4b23b8e87",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Offer Zone",
+      "targets": [
+        ["linkText=Offer Zone", "linkText"],
+        ["css=.TSD49J:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Offer Zone')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&otracker=nmenu_offer-zone')]", "xpath:href"],
+        ["xpath=//body/div/div/div[2]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Offer Zone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "316483e5-d1d3-4053-9aab-c91cbb56cd1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IBMftM .xTaogf",
+      "targets": [
+        ["css=.IBMftM .xTaogf", "css:finder"],
+        ["xpath=(//img[@alt='a'])[2]", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/span/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14f3da66-9232-49f7-abbe-b540f6f388e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IBMftM .xTaogf",
+      "targets": [
+        ["css=.IBMftM .xTaogf", "css:finder"],
+        ["xpath=(//img[@alt='a'])[2]", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/span/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3052f3b-2da1-4e1d-9758-c68177d53a49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=iPhone 15",
+      "targets": [
+        ["linkText=iPhone 15", "linkText"],
+        ["css=p > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'iPhone 15')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/p[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/apple-iphone-15-black-128-gb/p/itm6ac6485515ae4')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'iPhone 15')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "442058af-51cc-4f57-8a8a-ea212a5910c5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aa20e8cc-3735-490d-9f6d-831a772279b3"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
