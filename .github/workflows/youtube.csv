@@ -1,0 +1,8 @@
+,OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 15:30:19  GMT+5:30
+
+"#","Step","Data","Exp Result","XPath","cssSelector"
+"1","Open website","https://www.youtube.com/watch?v=p8bZBvcFPuk","","",""
+"2","Scroll down","","","",""
+"3","Scroll up","","","",""
+"4","Click on ""Next keyboard shortcut SHIFT+n""","","","//a[@aria-label='Next keyboard shortcut SHIFT+n']","a[aria-label='Next keyboard shortcut SHIFT+n']"
+"5","Click on ""Play keyboard shortcut k""","","","//button[@aria-label='Play keyboard shortcut k']","button[aria-label='Play keyboard shortcut k']"
