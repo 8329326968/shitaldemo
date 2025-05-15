@@ -1,0 +1,42 @@
+- '': '#'
+  'OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 15:30:19  GMT+5:30': Step
+  __parsed_extra:
+    - Data
+    - Exp Result
+    - XPath
+    - cssSelector
+- '': '1'
+  'OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 15:30:19  GMT+5:30': Open website
+  __parsed_extra:
+    - 'https://www.youtube.com/watch?v=p8bZBvcFPuk'
+    - ''
+    - ''
+    - ''
+- '': '2'
+  'OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 15:30:19  GMT+5:30': Scroll down
+  __parsed_extra:
+    - ''
+    - ''
+    - ''
+    - ''
+- '': '3'
+  'OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 15:30:19  GMT+5:30': Scroll up
+  __parsed_extra:
+    - ''
+    - ''
+    - ''
+    - ''
+- '': '4'
+  'OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 15:30:19  GMT+5:30': Click on "Next keyboard shortcut SHIFT+n"
+  __parsed_extra:
+    - ''
+    - ''
+    - '//a[@aria-label=''Next keyboard shortcut SHIFT+n'']'
+    - 'a[aria-label=''Next keyboard shortcut SHIFT+n'']'
+- '': '5'
+  'OS: macOS 13.4.1 | Browser: Chrome 136 | Resolution: 1440x786 | Time: 15 May 2025 / 15:30:19  GMT+5:30': Click on "Play keyboard shortcut k"
+  __parsed_extra:
+    - ''
+    - ''
+    - '//button[@aria-label=''Play keyboard shortcut k'']'
+    - 'button[aria-label=''Play keyboard shortcut k'']'
